@@ -377,3 +377,30 @@ nav li {
     font-size: 20px;
     color: #424242;
 }
+
+
+
+@media only screen and (max-width:688px) {
+
+    nav,ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container, .overall-container, .some-facts, .some-facts, .web-img, .experience-sector{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .teams, .features-container, .creativity{
+        grid-template-columns: repeat(1,1fr);
+    }
+    div img{
+       height: 100%;
+       width: 100%; 
+    }
+    .footer{
+
+
+    }
+
+}
