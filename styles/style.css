@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*---------------------------------
+        Button Style section 
+------------------------------------*/
+
+.btn-primary {
+    height: 75px;
+    background: #FF900E;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    padding: 18px 50px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    transition: 0.5s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: #686868;
+    color: #FF900E;
+    border: 5px solid #FF900E;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translate(-0.25em);
+    transition: 0.5s;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+/*---------------------------------
+         Header Style section 
+------------------------------------*/
+.header {
+    width: 100%;
+    height: 1420px;
+    background: rgb(255, 183, 183);
+}
+
+
+/*---------------------------------
+         Nav Style Section 
+------------------------------------*/
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+
+}
+
+.nav-titel {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 30px;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+
+/*-----------------------------
+       Banner Style Section
+-------------------------------*/
+
+.banner {
+    text-align: center;
+    padding: 62px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 120px;
+    color: #131313;
+    text-align: center;
+}
+
+.banner-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -80px;
+}
+
+/*-----------------------------
+       Team Style Section
+-------------------------------*/
+
+.teams {
+    margin-top: 85px;
+    margin-left: 300px;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    margin-bottom: 85px;
+}
+
+.container {
+    display: flex;
+}
+
+/*-----------------------------
+    Features Style Section
+-------------------------------*/
+
+.features {
+    margin-top: 285px;
+    margin-left: 70px;
+    margin-right: 300px;
+}
+
+
+.features-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.span-1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+
+}
+
+.span-2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.features-description {
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+
+/*----------------------------------
+    Features you will love & enjoy 
+------------------------------------*/
+
+
+.features-container,
+.creativity {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 0px;
+
+}
+
+.overall-container {
+    margin-bottom: 60px;
+    /* background-color: #727272; */
+}
+
+.features-container {
+    margin-left: 240px;
+    margin-right: 73px;
+}
+
+.architect {
+    margin-right: 240px;
+    margin-left: 73px;
+}
+
+.overall-container {
+    display: flex;
+}
+
+.enjoy {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 5px solid #FF900E;
+}
+
+.enjoy:hover,
+.enjoy:focus {
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+    background-color: #FF900E;
+    transition: 0.7s;
+    text-align: center;
+}
+
+
+.work {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px 20px;
+    margin-top: 15px;
+}
+
+.work-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.work-description {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/*--------------------------
+            Some Facts
+-----------------------------*/
+
+.some-facts {
+    display: flex;
+    margin-top: 135px;
+}
+
+.facts {
+    margin-left: 290px;
+    margin-right: 452px
+}
+
+.facts-title {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.facts-description {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/*----------------------
+      10+Year
+-----------------------*/
+
+.year {
+    margin-right: 290px;
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.year-title {
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    padding: 35px;
+}
+
+.year-description {
+    position: relative;
+    top: -30px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.experience-sector {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+
+}
+
+.experience-box {
+    width: 200.83px;
+    height: 200.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.exp-img {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.experience-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    text-align: center;
+}
+
+.experience-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    text-align: center;
+    margin-top: -5px;
+}
+
+/*---------------------------------
+    Sponspors Section section
+------------------------------------*/
+
+
+.sponspors {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sponspors-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #131313;
+}
+
+.sponspors-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.web-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 290px;
+    margin-right: 290.33px;
+    margin-bottom: 70px;
+}
+
+/*-----------------------------
+       footer Style Section
+-------------------------------*/
+
+.footer {
+    width: 1440px;
+    height: 100px;
+    margin-left: 233px;
+    margin-right: 290.33px;
+    margin-bottom: 70px;
+    background-color: #FFF4E7;
+    border-radius: 5px;
+}
+
+.footer-description {
+    text-align: center;
+    padding: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
